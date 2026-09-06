@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Bru Hero Electrical | Book an Electrician in South Africa</title>
+<meta name="description" content="Book an electrician in Gauteng or the Western Cape. Call or WhatsApp 068 621 4343 for fault finding, solar, commercial work and Certificates of Compliance.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap site-header__bar">
+    <a class="logo" href="index.html">
+      <span class="logo__mark"></span>
+      <span class="logo__text">Bru Hero <span>Electrical</span></span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+      <a class="btn btn--primary" href="tel:+27686214343">Call / WhatsApp us</a>
+    </nav>
+    <button class="menu-btn" type="button" id="menuBtn" aria-expanded="false" aria-controls="mobileNav">
+      <span class="sr-only">Menu</span>
+      <svg id="iconOpen" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      <svg id="iconClose" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" style="display:none"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+  <nav class="nav-mobile" id="mobileNav" aria-label="Mobile">
+    <div class="wrap">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+      <a class="btn btn--primary" href="tel:+27686214343">Call / WhatsApp us</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ============ PAGE HERO ============ -->
+  <section class="page-hero">
+    <div class="wrap">
+      <h1>Book an electrician</h1>
+      <p>
+        Fill in the form and we'll come back with a time slot and a quote. If the power is
+        off right now, phone instead — the line is answered 24/7.
+      </p>
+      <p style="margin-top:28px;"><a class="btn btn--primary" href="tel:+27686214343">Call now: 068 621 4343</a></p>
+    </div>
+  </section>
+
+  <!-- ============ FORM + DETAILS ============ -->
+  <section class="section">
+    <div class="wrap contact-grid">
+
+      <div>
+        <h2>Tell us what's going on</h2>
+        <span class="rule"></span>
+        <p class="lead" style="margin-bottom:32px;">
+          The more detail you give us, the more accurate the quote. Send it through and
+          WhatsApp opens with your answers already filled in.
+        </p>
+
+        <form id="bookingForm" novalidate>
+          <div class="field">
+            <label for="name">Your name</label>
+            <input class="form-control" type="text" id="name" name="name" autocomplete="name" placeholder="Thabo Nel" required>
+          </div>
+
+          <div class="field">
+            <label for="phone">Phone number</label>
+            <input class="form-control" type="tel" id="phone" name="phone" autocomplete="tel" inputmode="tel" placeholder="082 123 4567" required>
+          </div>
+
+          <div class="field">
+            <label for="service">Service needed</label>
+            <select class="form-control" id="service" name="service" required>
+              <option value="" selected disabled>Choose a service</option>
+              <option>Fault finding or repairs</option>
+              <option>DB board upgrade</option>
+              <option>Backup power, inverter or solar</option>
+              <option>Commercial or industrial work</option>
+              <option>Certificate of Compliance (COC)</option>
+              <option>Something else</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="message">What's happening?</label>
+            <textarea class="form-control" id="message" name="message" rows="5" placeholder="Kitchen plugs are dead and the earth leakage trips when I reset it. Two-bedroom flat in Claremont."></textarea>
+            <p class="hint">Handy detail: which breaker tripped, what was switched on, and your suburb.</p>
+          </div>
+
+          <button class="btn btn--primary" type="submit">Send booking request</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+
+      <aside>
+        <div class="info-card">
+          <h2>Call or WhatsApp</h2>
+          <p>No power, a burning smell, or a board you can't reset — phone any time.</p>
+          <a class="info-card__big" href="tel:+27686214343">068 621 4343</a>
+          <p style="margin:14px 0 0;"><a href="https://wa.me/27686214343">Open a WhatsApp chat</a></p>
+        </div>
+
+        <div class="info-card">
+          <h2>Email</h2>
+          <p>Quotes, invoices and COC paperwork.</p>
+          <p style="margin:0;"><a href="mailto:info@bruhero.co.za">info@bruhero.co.za</a></p>
+        </div>
+
+        <div class="info-card">
+          <h2>Operating hours</h2>
+          <dl class="hours">
+            <div><dt>Monday to Friday</dt><dd>07:00 – 17:00</dd></div>
+            <div><dt>Saturday</dt><dd>08:00 – 13:00</dd></div>
+            <div><dt>Sunday &amp; public holidays</dt><dd>Emergencies only</dd></div>
+            <div><dt>Emergency line</dt><dd>24 hours</dd></div>
+          </dl>
+        </div>
+
+        <div class="areas">
+          <h2>Where we work</h2>
+          <p>Western Cape: Cape Town, Southern Suburbs, Northern Suburbs, Somerset West and surrounds.</p>
+          <p>Gauteng: Johannesburg, Sandton, Midrand, Centurion and Pretoria East.</p>
+          <p style="margin:0;font-size:.9rem;color:#93A1B5;">Outside these areas? Ask anyway — we travel for commercial and COC work.</p>
+        </div>
+      </aside>
+
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="cta">
+    <div class="wrap cta__inner">
+      <div>
+        <h2>Faster than a form</h2>
+        <p>Send a photo of your DB board and we'll tell you what we're looking at.</p>
+      </div>
+      <div class="cta__actions">
+        <a class="btn btn--light" href="https://wa.me/27686214343">WhatsApp us now</a>
+        <a class="btn btn--ghost" href="services.html">See our services</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap site-footer__grid">
+    <div>
+      <a class="logo" href="index.html" style="margin-bottom:16px;">
+        <span class="logo__mark"></span>
+        <span class="logo__text">Bru Hero <span>Electrical</span></span>
+      </a>
+      <p>Registered electrical contractors for homes, estates and commercial property. Fault finding, backup power and Certificates of Compliance.</p>
+    </div>
+    <div>
+      <h2>Pages</h2>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Services</h2>
+      <ul>
+        <li><a href="services.html#fault-finding">Fault finding &amp; repairs</a></li>
+        <li><a href="services.html#backup-power">Backup power &amp; solar</a></li>
+        <li><a href="services.html#commercial">Commercial &amp; industrial</a></li>
+        <li><a href="services.html#coc">Certificates of Compliance</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Get hold of us</h2>
+      <ul>
+        <li>Call or WhatsApp: <a href="tel:+27686214343">068 621 4343</a></li>
+        <li><a href="mailto:info@bruhero.co.za">info@bruhero.co.za</a></li>
+        <li>Mon–Fri 07:00–17:00, Sat 08:00–13:00</li>
+        <li>Gauteng &amp; Western Cape</li>
+      </ul>
+    </div>
+  </div>
+  <div class="site-footer__base">
+    <div class="wrap">© 2026 Bru Hero Electrical. Department of Labour registered electrical contractor.</div>
+  </div>
+</footer>
+
+<script src="js/site.js" defer></script>
+</body>
+</html>
